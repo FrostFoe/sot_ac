@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <incidents format="6" by="lint 7.4.2" type="partial_results">
+    <map id="NotificationPermission">
+        <entry
+            name="className"
+            string="com/google/firebase/messaging/DisplayNotification"/>
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/transforms-3/c8d24835ac8cc92fd18411ddeceeb1eb/transformed/jetified-firebase-messaging-23.0.0/jars/classes.jar"/>
+    </map>
     <map id="UnusedResources">
         <entry
             name="model"

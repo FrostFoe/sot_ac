@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sot_apk.app-mergeReleaseResources-29:/values-b+es+419/values-b+es+419.xml",
+            "outputFile": "com.example.sot_apk.app-mergeReleaseResources-43:/values-b+es+419/values-b+es+419.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-3/5c395c2ddd99683bb01e297e0783fb7e/transformed/material-1.8.0/res/values-b+es+419/values-b+es+419.xml",

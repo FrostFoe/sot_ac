@@ -20,30 +20,33 @@
 
    https://developer.android.com/distribute/best-practices/develop/target-sdk.html
 
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:40: Warning: A newer version of androidx.core:core-ktx than 1.7.0 is available: 1.17.0 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:41: Warning: A newer version of androidx.core:core-ktx than 1.7.0 is available: 1.17.0 [GradleDependency]
     implementation 'androidx.core:core-ktx:1.7.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:41: Warning: A newer version of androidx.core:core-splashscreen than 1.0.0 is available: 1.0.1 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:42: Warning: A newer version of androidx.core:core-splashscreen than 1.0.0 is available: 1.0.1 [GradleDependency]
     implementation 'androidx.core:core-splashscreen:1.0.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:42: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:43: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
     implementation 'androidx.appcompat:appcompat:1.6.1'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:43: Warning: A newer version of com.google.android.material:material than 1.8.0 is available: 1.13.0 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:44: Warning: A newer version of com.google.android.material:material than 1.8.0 is available: 1.13.0 [GradleDependency]
     implementation 'com.google.android.material:material:1.8.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:44: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:45: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:45: Warning: A newer version of androidx.webkit:webkit than 1.6.0 is available: 1.14.0 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:46: Warning: A newer version of androidx.webkit:webkit than 1.6.0 is available: 1.14.0 [GradleDependency]
     implementation 'androidx.webkit:webkit:1.6.0'
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:47: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:48: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/build.gradle:48: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:49: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspaces/codespaces-blank/SOT_apk/app/build.gradle:50: Warning: A newer version of com.onesignal:OneSignal than 5.1.3 is available: 5.4.0 [GradleDependency]
+    implementation 'com.onesignal:OneSignal:5.1.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "GradleDependency":
    This detector looks for usages of libraries where the version you are using
@@ -52,7 +55,7 @@
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-/workspaces/codespaces-blank/SOT_apk/app/src/main/java/com/example/sot_apk/MainActivity.kt:21: Warning: Using setJavaScriptEnabled can introduce XSS vulnerabilities into your application, review carefully [SetJavaScriptEnabled]
+/workspaces/codespaces-blank/SOT_apk/app/src/main/java/com/example/sot_apk/MainActivity.kt:52: Warning: Using setJavaScriptEnabled can introduce XSS vulnerabilities into your application, review carefully [SetJavaScriptEnabled]
         webView.settings.javaScriptEnabled = true
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -102,4 +105,4 @@
    catches cases where the same icon is provided in different configuration
    folder which is usually not intentional.
 
-0 errors, 15 warnings
+0 errors, 16 warnings
