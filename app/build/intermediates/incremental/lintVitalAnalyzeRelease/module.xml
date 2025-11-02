@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/workspaces/codespaces-blank/SOT_apk/app"
+    name=":app"
+    type="APP"
+    maven="SOT_apk:app:"
+    gradle="7.4.2"
+    buildFolder="build"
+    bootClassPath="/home/codespace/android-sdk/platforms/android-33/android.jar:/home/codespace/android-sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
