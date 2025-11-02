@@ -65,10 +65,10 @@
 /workspaces/codespaces-blank/SOT_apk/app/src/main/res/drawable/splash_screen.xml:2: Warning: The resource R.drawable.splash_screen appears to be unused [UnusedResources]
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 ^
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/values/themes.xml:22: Warning: The resource R.style.Theme_SOT_apk_AppBarOverlay appears to be unused [UnusedResources]
+/workspaces/codespaces-blank/SOT_apk/app/src/main/res/values/themes.xml:20: Warning: The resource R.style.Theme_SOT_apk_AppBarOverlay appears to be unused [UnusedResources]
     <style name="Theme.SOT_apk.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/values/themes.xml:24: Warning: The resource R.style.Theme_SOT_apk_PopupOverlay appears to be unused [UnusedResources]
+/workspaces/codespaces-blank/SOT_apk/app/src/main/res/values/themes.xml:22: Warning: The resource R.style.Theme_SOT_apk_PopupOverlay appears to be unused [UnusedResources]
     <style name="Theme.SOT_apk.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -86,25 +86,6 @@
    lint.unused-resources.exclude-tests =true.
    ,
 
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-^
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
-^
-
-   Explanation for issues of type "MonochromeLauncherIcon":
-   If android:roundIcon and android:icon are both in your manifest, you must
-   either remove the reference to android:roundIcon if it is not needed; or,
-   supply the monochrome icon in the drawable defined by the android:roundIcon
-   and android:icon attribute.
-
-   For example, if android:roundIcon and android:icon are both in the
-   manifest, a launcher might choose to use android:roundIcon over
-   android:icon to display the adaptive app icon. Therefore, your themed
-   application iconwill not show if your monochrome attribute is not also
-   specified in android:roundIcon.
-
 /workspaces/codespaces-blank/SOT_apk/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: Warning: The image ic_launcher.png varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.png: 400x400 dp (600x600 px), mipmap-mdpi/ic_launcher.png: 600x600 dp (600x600 px), mipmap-xhdpi/ic_launcher.png: 300x300 dp (600x600 px), mipmap-xxhdpi/ic_launcher.png: 200x200 dp (600x600 px), mipmap-xxxhdpi/ic_launcher.png: 150x150 dp (600x600 px) [IconDipSize]
 
    Explanation for issues of type "IconDipSize":
@@ -113,7 +94,7 @@
    errors where images are either placed in the wrong folder, or icons are
    changed to new sizes but some folders are forgotten.
 
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: Warning: The ic_launcher.png icon has identical contents in the following configuration folders: drawable, mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi [IconDuplicatesConfig]
+/workspaces/codespaces-blank/SOT_apk/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: Warning: The ic_launcher.png icon has identical contents in the following configuration folders: mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi [IconDuplicatesConfig]
 
    Explanation for issues of type "IconDuplicatesConfig":
    If an icon is provided under different configuration parameters such as
@@ -121,15 +102,4 @@
    catches cases where the same icon is provided in different configuration
    folder which is usually not intentional.
 
-/workspaces/codespaces-blank/SOT_apk/app/src/main/res/drawable/ic_launcher.png: Warning: Found bitmap drawable res/drawable/ic_launcher.png in densityless folder [IconLocation]
-
-   Explanation for issues of type "IconLocation":
-   The res/drawable folder is intended for density-independent graphics such
-   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
-   consider providing higher and lower resolution versions in drawable-ldpi,
-   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
-   (for example a solid color) you can place it in drawable-nodpi.
-
-   https://developer.android.com/guide/practices/screens_support.html
-
-0 errors, 18 warnings
+0 errors, 15 warnings

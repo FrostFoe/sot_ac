@@ -3,24 +3,24 @@
 3    package="com.example.sot_apk.test" >
 4
 5    <uses-sdk
-5-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:5:5-74
+5-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:5:15-41
+6-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:5:15-41
 7        android:targetSdkVersion="33" />
-7-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:5:42-71
+7-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:5:42-71
 8
 9    <instrumentation
-9-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:11:5-15:69
+9-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:11:5-15:69
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:11:22-76
+10-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:11:22-76
 11        android:functionalTest="false"
-11-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:14:22-52
+11-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:13:22-53
+12-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:13:22-53
 13        android:label="Tests for com.example.sot_apk"
-13-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:15:22-67
+13-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:15:22-67
 14        android:targetPackage="com.example.sot_apk" />
-14-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:12:22-65
+14-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:12:22-65
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.5.0] /home/codespace/.gradle/caches/transforms-3/e47876b3c3d75cccd4319254497a0959/transformed/jetified-core-1.5.0/AndroidManifest.xml:24:5-72
@@ -40,10 +40,10 @@
 22    </queries>
 23
 24    <application android:debuggable="true" >
-24-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:7:5-9:19
+24-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:7:5-9:19
 25        <uses-library android:name="android.test.runner" />
-25-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:8:9-60
-25-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9897174712194648481.xml:8:23-57
+25-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:8:9-60
+25-->/workspaces/codespaces-blank/SOT_apk/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18240721417319043228.xml:8:23-57
 26
 27        <activity
 27-->[androidx.test:core:1.5.0] /home/codespace/.gradle/caches/transforms-3/e47876b3c3d75cccd4319254497a0959/transformed/jetified-core-1.5.0/AndroidManifest.xml:27:9-34:20

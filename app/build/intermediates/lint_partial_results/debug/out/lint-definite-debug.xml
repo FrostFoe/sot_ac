@@ -2,34 +2,6 @@
 <incidents format="6" by="lint 7.4.2" type="incidents">
 
     <incident
-        id="MonochromeLauncherIcon"
-        severity="warning"
-        message="The application adaptive icon is missing a monochrome tag">
-        <location
-            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
-            line="2"
-            column="1"
-            startOffset="39"
-            endLine="5"
-            endColumn="17"
-            endOffset="239"/>
-    </incident>
-
-    <incident
-        id="MonochromeLauncherIcon"
-        severity="warning"
-        message="The application adaptive roundIcon is missing a monochrome tag">
-        <location
-            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
-            line="2"
-            column="1"
-            startOffset="39"
-            endLine="5"
-            endColumn="17"
-            endOffset="239"/>
-    </incident>
-
-    <incident
         id="SetJavaScriptEnabled"
         severity="warning"
         message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
@@ -214,14 +186,6 @@
     </incident>
 
     <incident
-        id="IconLocation"
-        severity="warning"
-        message="Found bitmap drawable `res/drawable/ic_launcher.png` in densityless folder">
-        <location
-            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_launcher.png"/>
-    </incident>
-
-    <incident
         id="IconDipSize"
         severity="warning"
         message="The image `ic_launcher.png` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.png: 400x400 dp (600x600 px), mipmap-mdpi/ic_launcher.png: 600x600 dp (600x600 px), mipmap-xhdpi/ic_launcher.png: 300x300 dp (600x600 px), mipmap-xxhdpi/ic_launcher.png: 200x200 dp (600x600 px), mipmap-xxxhdpi/ic_launcher.png: 150x150 dp (600x600 px)">
@@ -240,7 +204,7 @@
     <incident
         id="IconDuplicatesConfig"
         severity="warning"
-        message="The `ic_launcher.png` icon has identical contents in the following configuration folders: drawable, mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi">
+        message="The `ic_launcher.png` icon has identical contents in the following configuration folders: mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi">
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
         <location
@@ -251,8 +215,6 @@
             file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
         <location
             file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
-        <location
-            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_launcher.png"/>
     </incident>
 
 </incidents>

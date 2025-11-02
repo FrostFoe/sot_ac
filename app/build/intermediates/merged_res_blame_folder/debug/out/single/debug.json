@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.sot_apk.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.sot_apk.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "com.example.sot_apk.app-merged_res-31:/drawable_splash_screen.xml.flat",
         "source": "com.example.sot_apk.app-main-33:/drawable/splash_screen.xml"
     },
@@ -16,8 +12,8 @@
         "source": "com.example.sot_apk.app-main-33:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.sot_apk.app-merged_res-31:/drawable_ic_launcher.png.flat",
-        "source": "com.example.sot_apk.app-main-33:/drawable/ic_launcher.png"
+        "merged": "com.example.sot_apk.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.sot_apk.app-main-33:/xml/backup_rules.xml"
     },
     {
         "merged": "com.example.sot_apk.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
@@ -30,14 +26,6 @@
     {
         "merged": "com.example.sot_apk.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.example.sot_apk.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.example.sot_apk.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.sot_apk.app-main-33:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.sot_apk.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.sot_apk.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "com.example.sot_apk.app-merged_res-31:/layout_activity_main.xml.flat",

@@ -177,9 +177,9 @@ document.getElementById(id).style.display = 'none';
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title">Lint Report: 18 warnings</span>
+      <span class="mdl-layout-title">Lint Report: 15 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Sun Nov 02 14:46:23 UTC 2025 by AGP (7.4.2)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Sun Nov 02 14:59:38 UTC 2025 by AGP (7.4.2)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -190,10 +190,8 @@ document.getElementById(id).style.display = 'none';
       <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (8)</a>
       <a class="mdl-navigation__link" href="#SetJavaScriptEnabled"><i class="material-icons warning-icon">warning</i>Using <code>setJavaScriptEnabled</code> (1)</a>
       <a class="mdl-navigation__link" href="#UnusedResources"><i class="material-icons warning-icon">warning</i>Unused resources (3)</a>
-      <a class="mdl-navigation__link" href="#MonochromeLauncherIcon"><i class="material-icons warning-icon">warning</i>Monochrome icon is not defined (2)</a>
       <a class="mdl-navigation__link" href="#IconDipSize"><i class="material-icons warning-icon">warning</i>Icon density-independent size validation (1)</a>
       <a class="mdl-navigation__link" href="#IconDuplicatesConfig"><i class="material-icons warning-icon">warning</i>Identical bitmaps across various configurations (1)</a>
-      <a class="mdl-navigation__link" href="#IconLocation"><i class="material-icons warning-icon">warning</i>Image defined in density-independent drawable folder (1)</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -227,17 +225,11 @@ document.getElementById(id).style.display = 'none';
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
 <tr>
-<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#MonochromeLauncherIcon">MonochromeLauncherIcon</a>: Monochrome icon is not defined</td></tr>
-<tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#IconDipSize">IconDipSize</a>: Icon density-independent size validation</td></tr>
 <tr>
 <td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#IconDuplicatesConfig">IconDuplicatesConfig</a>: Identical bitmaps across various configurations</td></tr>
-<tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#IconLocation">IconLocation</a>: Image defined in density-independent drawable folder</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (20)</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (38)</a>
@@ -469,26 +461,26 @@ Dismiss</button>            </div>
 <span class="lineno"> 1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
 <span class="caretline"><span class="lineno"> 2 </span><span class="warning"><span class="tag">&lt;layer-list</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno"> 3 </span>    <span class="tag">&lt;item</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@color/white"</span> />
-<span class="lineno"> 4 </span>    <span class="tag">&lt;item</span><span class="attribute">
-</span><span class="lineno"> 5 </span><span class="attribute">        </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@drawable/ic_launcher"</span></pre>
+<span class="lineno"> 4 </span>    <span class="tag">&lt;item</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@mipmap/ic_launcher"</span> />
+<span class="lineno"> 5 </span><span class="tag">&lt;/layer-list></span></pre>
 
-<span class="location"><a href="../../src/main/res/values/themes.xml">../../src/main/res/values/themes.xml</a>:22</span>: <span class="message">The resource <code>R.style.Theme_SOT_apk_AppBarOverlay</code> appears to be unused</span><br /><pre class="errorlines">
-<span class="lineno"> 19 </span>       <span class="tag">&lt;item</span><span class="attribute"> name</span>=<span class="value">"windowNoTitle"</span>>true<span class="tag">&lt;/item></span>
-<span class="lineno"> 20 </span>   <span class="tag">&lt;/style></span>
+<span class="location"><a href="../../src/main/res/values/themes.xml">../../src/main/res/values/themes.xml</a>:20</span>: <span class="message">The resource <code>R.style.Theme_SOT_apk_AppBarOverlay</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 17 </span>       <span class="tag">&lt;item</span><span class="attribute"> name</span>=<span class="value">"windowNoTitle"</span>>true<span class="tag">&lt;/item></span>
+<span class="lineno"> 18 </span>   <span class="tag">&lt;/style></span>
+<span class="lineno"> 19 </span>
+<span class="caretline"><span class="lineno"> 20 </span>   <span class="tag">&lt;style</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"Theme.SOT_apk.AppBarOverlay"</span></span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Dark.ActionBar"</span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno"> 21 </span>
-<span class="caretline"><span class="lineno"> 22 </span>   <span class="tag">&lt;style</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"Theme.SOT_apk.AppBarOverlay"</span></span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Dark.ActionBar"</span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 23 </span>
-<span class="lineno"> 24 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.SOT_apk.PopupOverlay"</span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Light"</span> />
+<span class="lineno"> 22 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.SOT_apk.PopupOverlay"</span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Light"</span> />
 </pre>
 
-<span class="location"><a href="../../src/main/res/values/themes.xml">../../src/main/res/values/themes.xml</a>:24</span>: <span class="message">The resource <code>R.style.Theme_SOT_apk_PopupOverlay</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="location"><a href="../../src/main/res/values/themes.xml">../../src/main/res/values/themes.xml</a>:22</span>: <span class="message">The resource <code>R.style.Theme_SOT_apk_PopupOverlay</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 19 </span>
+<span class="lineno"> 20 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.SOT_apk.AppBarOverlay"</span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Dark.ActionBar"</span> />
 <span class="lineno"> 21 </span>
-<span class="lineno"> 22 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.SOT_apk.AppBarOverlay"</span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Dark.ActionBar"</span> />
+<span class="caretline"><span class="lineno"> 22 </span>   <span class="tag">&lt;style</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"Theme.SOT_apk.PopupOverlay"</span></span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Light"</span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno"> 23 </span>
-<span class="caretline"><span class="lineno"> 24 </span>   <span class="tag">&lt;style</span><span class="attribute"> </span><span class="warning"><span class="attribute">name</span>=<span class="value">"Theme.SOT_apk.PopupOverlay"</span></span> <span class="attribute">parent</span>=<span class="value">"ThemeOverlay.AppCompat.Light"</span> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 25 </span>
-<span class="lineno"> 26 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.App.Starting"</span> <span class="attribute">parent</span>=<span class="value">"Theme.SplashScreen"</span>>
-<span class="lineno"> 27 </span>       <span class="tag">&lt;item</span><span class="attribute"> name</span>=<span class="value">"windowSplashScreenBackground"</span>>@color/white<span class="tag">&lt;/item></span></pre>
+<span class="lineno"> 24 </span>   <span class="tag">&lt;style</span><span class="attribute"> name</span>=<span class="value">"Theme.App.Starting"</span> <span class="attribute">parent</span>=<span class="value">"Theme.SplashScreen"</span>>
+<span class="lineno"> 25 </span>       <span class="tag">&lt;item</span><span class="attribute"> name</span>=<span class="value">"windowSplashScreenBackground"</span>>@color/white<span class="tag">&lt;/item></span></pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationUnusedResources" style="display: none;">
@@ -525,61 +517,7 @@ Dismiss</button>            </div>
             </div>
           </section>
 <a name="Usability:Icons"></a>
-<a name="MonochromeLauncherIcon"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="MonochromeLauncherIconCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Monochrome icon is not defined</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/res/mipmap-anydpi-v26/ic_launcher.xml">../../src/main/res/mipmap-anydpi-v26/ic_launcher.xml</a>:2</span>: <span class="message">The application adaptive icon is missing a monochrome tag</span><br /><pre class="errorlines">
-<span class="lineno"> 1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
-<span class="caretline"><span class="lineno"> 2 </span><span class="warning"><span class="tag">&lt;adaptive-icon</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 3 </span>    <span class="tag">&lt;background</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@color/white"</span>/>
-<span class="lineno"> 4 </span>    <span class="tag">&lt;foreground</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@drawable/ic_launcher"</span>/>
-<span class="lineno"> 5 </span><span class="tag">&lt;/adaptive-icon></span></pre>
-
-<span class="location"><a href="../../src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">../../src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml</a>:2</span>: <span class="message">The application adaptive roundIcon is missing a monochrome tag</span><br /><pre class="errorlines">
-<span class="lineno"> 1 </span><span class="prologue">&lt;?xml version="1.0" encoding="utf-8"?></span>
-<span class="caretline"><span class="lineno"> 2 </span><span class="warning"><span class="tag">&lt;adaptive-icon</span><span class="attribute"> </span><span class="prefix">xmlns:</span><span class="attribute">android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span>></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 3 </span>    <span class="tag">&lt;background</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@color/white"</span>/>
-<span class="lineno"> 4 </span>    <span class="tag">&lt;foreground</span><span class="attribute"> </span><span class="prefix">android:</span><span class="attribute">drawable</span>=<span class="value">"@drawable/ic_launcher"</span>/>
-<span class="lineno"> 5 </span><span class="tag">&lt;/adaptive-icon></span></pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationMonochromeLauncherIcon" style="display: none;">
-If <code>android:roundIcon</code> and <code>android:icon</code> are both in your manifest, you must either remove the reference to <code>android:roundIcon</code> if it is not needed; or, supply the monochrome icon in the drawable defined by the <code>android:roundIcon</code> and <code>android:icon</code> attribute.<br/>
-<br/>
-For example, if <code>android:roundIcon</code> and <code>android:icon</code> are both in the manifest, a launcher might choose to use <code>android:roundIcon</code> over <code>android:icon</code> to display the adaptive app icon. Therefore, your themed application iconwill not show if your monochrome attribute is not also specified in <code>android:roundIcon</code>.<br/>To suppress this error, use the issue id "MonochromeLauncherIcon" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">MonochromeLauncherIcon</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Icons</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Usability</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 6/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationMonochromeLauncherIconLink" onclick="reveal('explanationMonochromeLauncherIcon');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="MonochromeLauncherIconCardLink" onclick="hideid('MonochromeLauncherIconCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="IconDipSize"></a>
+<a name="IconDipSize"></a>
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="IconDipSizeCard" style="display: block;">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-card__title">
@@ -644,25 +582,23 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../src/main/res/mipmap-xxxhdpi/ic_launcher.png">../../src/main/res/mipmap-xxxhdpi/ic_launcher.png</a></span>: <span class="message">The <code>ic_launcher.png</code> icon has identical contents in the following configuration folders: drawable, mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi</span><br />
-<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 5 Additional Locations...</button>
+<span class="location"><a href="../../src/main/res/mipmap-xxxhdpi/ic_launcher.png">../../src/main/res/mipmap-xxxhdpi/ic_launcher.png</a></span>: <span class="message">The <code>ic_launcher.png</code> icon has identical contents in the following configuration folders: mipmap-hdpi, mipmap-mdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 4 Additional Locations...</button>
 <div id="Location1Div" style="display: none">
 Additional locations: <ul>
 <li> <span class="location"><a href="../../src/main/res/mipmap-xxhdpi/ic_launcher.png">../../src/main/res/mipmap-xxhdpi/ic_launcher.png</a></span>
 <li> <span class="location"><a href="../../src/main/res/mipmap-xhdpi/ic_launcher.png">../../src/main/res/mipmap-xhdpi/ic_launcher.png</a></span>
 <li> <span class="location"><a href="../../src/main/res/mipmap-mdpi/ic_launcher.png">../../src/main/res/mipmap-mdpi/ic_launcher.png</a></span>
 <li> <span class="location"><a href="../../src/main/res/mipmap-hdpi/ic_launcher.png">../../src/main/res/mipmap-hdpi/ic_launcher.png</a></span>
-<li> <span class="location"><a href="../../src/main/res/drawable/ic_launcher.png">../../src/main/res/drawable/ic_launcher.png</a></span>
 </ul>
 </div><br/><br/>
 <table>
-<tr><td><a href="../../src/main/res/drawable/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/drawable/ic_launcher.png" /></a>
-</td><td><a href="../../src/main/res/mipmap-mdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-mdpi/ic_launcher.png" /></a>
+<tr><td><a href="../../src/main/res/mipmap-mdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-mdpi/ic_launcher.png" /></a>
 </td><td><a href="../../src/main/res/mipmap-hdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-hdpi/ic_launcher.png" /></a>
 </td><td><a href="../../src/main/res/mipmap-xhdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-xhdpi/ic_launcher.png" /></a>
 </td><td><a href="../../src/main/res/mipmap-xxhdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-xxhdpi/ic_launcher.png" /></a>
 </td><td><a href="../../src/main/res/mipmap-xxxhdpi/ic_launcher.png"><img border="0" align="top" src="../../src/main/res/mipmap-xxxhdpi/ic_launcher.png" /></a>
-</td></tr><tr><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+</td></tr><tr><th></th><th></th><th></th><th></th><th></th></tr>
 </table>
 </div>
 <div class="metadata"><div class="explanation" id="explanationIconDuplicatesConfig" style="display: none;">
@@ -691,46 +627,6 @@ If an icon is provided under different configuration parameters such as <code>dr
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationIconDuplicatesConfigLink" onclick="reveal('explanationIconDuplicatesConfig');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="IconDuplicatesConfigCardLink" onclick="hideid('IconDuplicatesConfigCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="IconLocation"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="IconLocationCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Image defined in density-independent drawable folder</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../src/main/res/drawable/ic_launcher.png">../../src/main/res/drawable/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/ic_launcher.png" /><span class="message">Found bitmap drawable <code>res/drawable/ic_launcher.png</code> in densityless folder</span><br clear="right"/>
-</div>
-<div class="metadata"><div class="explanation" id="explanationIconLocation" style="display: none;">
-The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to <code>drawable-mdpi</code> and consider providing higher and lower resolution versions in <code>drawable-ldpi</code>, <code>drawable-hdpi</code> and <code>drawable-xhdpi</code>. If the icon <b>really</b> is density independent (for example a solid color) you can place it in <code>drawable-nodpi</code>.<br/><div class="moreinfo">More info: <a href="https://developer.android.com/guide/practices/screens_support.html">https://developer.android.com/guide/practices/screens_support.html</a>
-</div>To suppress this error, use the issue id "IconLocation" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">IconLocation</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Icons</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Usability</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 5/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationIconLocationLink" onclick="reveal('explanationIconLocation');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="IconLocationCardLink" onclick="hideid('IconLocationCard');">
 Dismiss</button>            </div>
             </div>
           </section>
