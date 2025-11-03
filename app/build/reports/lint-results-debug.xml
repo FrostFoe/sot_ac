@@ -15,7 +15,7 @@
         errorLine2="        ~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="13"
+            line="29"
             column="9"/>
     </issue>
 
@@ -31,7 +31,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="41"
+            line="62"
             column="20"/>
     </issue>
 
@@ -47,7 +47,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="42"
+            line="63"
             column="20"/>
     </issue>
 
@@ -63,7 +63,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="43"
+            line="64"
             column="20"/>
     </issue>
 
@@ -79,7 +79,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="44"
+            line="65"
             column="20"/>
     </issue>
 
@@ -95,7 +95,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="45"
+            line="66"
             column="20"/>
     </issue>
 
@@ -111,7 +111,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="46"
+            line="67"
             column="20"/>
     </issue>
 
@@ -127,7 +127,7 @@
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="48"
+            line="69"
             column="31"/>
     </issue>
 
@@ -143,7 +143,7 @@
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="49"
+            line="70"
             column="31"/>
     </issue>
 
@@ -159,7 +159,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="/workspaces/codespaces-blank/SOT_apk/app/build.gradle"
-            line="50"
+            line="71"
             column="20"/>
     </issue>
 

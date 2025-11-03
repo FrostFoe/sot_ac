@@ -34,6 +34,9 @@ android {
     }
 
     buildTypes {
+        debug {
+            archivesBaseName = "Admission Calendar"
+        }
         release {
             archivesBaseName = "Admission Calendar"
             minifyEnabled true
